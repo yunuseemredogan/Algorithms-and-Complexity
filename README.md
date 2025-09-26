@@ -1,7 +1,5 @@
 # Algoritmalar ve Karmaşıklık 🚀
 
-![Proje Banner'ı](https://github.com/yunuseemredogan/screenshots-.gitkeep/blob/main/algorithms-complexity.png)
-
 ## 📖 Genel Bakış
 Bu GitHub deposu, **Algoritmalar ve Karmaşıklık** dersi kapsamında hazırladığım ödevleri ve ilgili projeleri içermektedir. Depo, algoritma tasarımı, veri yapıları ve hesaplama karmaşıklığı konularında pratik uygulamalar sunar. Her ödev, belirli bir algoritmik problemi çözmek veya veri yapısını uygulamak için geliştirilmiş olup, genellikle Java programlama dili kullanılarak yazılmıştır.
 
@@ -13,7 +11,7 @@ Bu depo, aşağıdaki amaçlar için faydalıdır:
 Depodaki projeler, genellikle belirli bir problemi çözmek için tasarlanmış küçük ölçekli uygulamalar içerir. Kodlar, açık ve anlaşılır bir şekilde yazılmış olup, her biri yorumlarla desteklenmiştir. Ödevler, temel algoritma tekniklerinden (örneğin, döngüler ve koşullu ifadeler) daha karmaşık veri yapılarına (örneğin, hash tabloları) kadar geniş bir yelpazeyi kapsar.
 
 ## ✨ Temel Özellikler
-- **Matris İşlemleri**: Matris oluşturma, rastgele değer atama, asal sayı işaretleme ve matris çarpımı gibi işlemler (örn. `cMatrix.java`).
+- **Matris İşlemleri**: Matris oluşturma, rastgele değer atama, asal sayı işaretleme ve matris çarpımı gibi işlemler (örn. `Yunus_Emre_Dogan_HW1.java`).
 - **Envanter Yönetimi**: Elektronik bileşenlerin envanterini yönetme, sıralama ve silme işlemleri (örn. `Yunus_Emre_Dogan_HW2.java`).
 - **Dosya İşleme**: Metin dosyalarından veri okuma, şekil bulma ve sonuçları dosyaya yazma (örn. `Yunus_Emre_Dogan_HW3.java`).
 - **Hash Tablosu Uygulaması**: Anahtar-değer çiftleri ile hash tablosu oluşturma, ekleme, silme ve arama işlemleri (örn. `Yunus_Emre_Dogan_HW4.java`).

@@ -1,19 +1,19 @@
 # Algoritmalar ve Karmaşıklık 🚀
 
 ## 📖 Genel Bakış
-Bu GitHub deposu, **Algoritmalar ve Karmaşıklık** dersi kapsamında hazırladığım ödevleri ve ilgili projeleri içermektedir. Depo, algoritma tasarımı, veri yapıları ve hesaplama karmaşıklığı konularında pratik uygulamalar sunar. Her ödev, belirli bir algoritmik problemi çözmek veya veri yapısını uygulamak için geliştirilmiş olup, genellikle Java programlama dili kullanılarak yazılmıştır.
+Bu GitHub deposu, **Algoritmalar ve Karmaşıklık** dersi kapsamında hazırladığım ödevleri ve ilgili projeleri içermektedir. Depo, algoritma tasarımı, veri yapıları ve hesaplama karmaşıklığı konularında pratik uygulamalar sunar. Ödevler, genellikle Java programlama dili kullanılarak yazılmış olup, farklı algoritmik problemleri ve veri yapılarını çözmek için geliştirilmiştir.
 
 Bu depo, aşağıdaki amaçlar için faydalıdır:
 - Algoritma ve veri yapısı kavramlarını öğrenmek ve uygulamak.
-- Matris işlemleri, envanter yönetimi, dosya işleme ve hash tablosu gibi farklı problem türlerini anlamak.
-- Zaman ve uzay karmaşıklığı analizini gerçek dünya örnekleriyle görmek.
+- Matris işlemleri, envanter yönetimi, dosya işleme ve hash tablosu gibi çeşitli problem türlerini anlamak.
+- Zaman ve uzay karmaşıklığı analizini pratik örneklerle görmek.
 
-Depodaki projeler, genellikle belirli bir problemi çözmek için tasarlanmış küçük ölçekli uygulamalar içerir. Kodlar, açık ve anlaşılır bir şekilde yazılmış olup, her biri yorumlarla desteklenmiştir. Ödevler, temel algoritma tekniklerinden (örneğin, döngüler ve koşullu ifadeler) daha karmaşık veri yapılarına (örneğin, hash tabloları) kadar geniş bir yelpazeyi kapsar.
+Depodaki projeler, belirli bir problemi çözmek için tasarlanmış bağımsız Java uygulamaları içerir. Kodlar, okunabilirlik ve anlaşılırlık için yorumlarla desteklenmiştir. Ödevler, temel algoritma tekniklerinden (örneğin, döngüler, koşullu ifadeler) daha karmaşık veri yapılarına (örneğin, hash tabloları) kadar geniş bir yelpazeyi kapsar.
 
 ## ✨ Temel Özellikler
-- **Matris İşlemleri**: Matris oluşturma, rastgele değer atama, asal sayı işaretleme ve matris çarpımı gibi işlemler (örn. `Yunus_Emre_Dogan_HW1.java`).
-- **Envanter Yönetimi**: Elektronik bileşenlerin envanterini yönetme, sıralama ve silme işlemleri (örn. `Yunus_Emre_Dogan_HW2.java`).
-- **Dosya İşleme**: Metin dosyalarından veri okuma, şekil bulma ve sonuçları dosyaya yazma (örn. `Yunus_Emre_Dogan_HW3.java`).
+- **Matris İşlemleri**: Rastgele değerlerle matris oluşturma, asal sayıları işaretleme ve matris çarpımı işlemleri (örn. `Yunus_Emre_Dogan_HW1.java`).
+- **Envanter Yönetimi**: Elektronik bileşenlerin envanterini ekleme, sıralama ve silme işlemleri (örn. `Yunus_Emre_Dogan_HW2.java`).
+- **Dosya İşleme**: Metin dosyalarından veri okuma, şekil tanıma ve sonuçları dosyaya yazma (örn. `Yunus_Emre_Dogan_HW3.java`).
 - **Hash Tablosu Uygulaması**: Anahtar-değer çiftleri ile hash tablosu oluşturma, ekleme, silme ve arama işlemleri (örn. `Yunus_Emre_Dogan_HW4.java`).
 - **Zaman Karmaşıklığı Analizi**: Matris çarpımı gibi işlemler için işlem sayısı ve süre ölçümü.
 - **Hata Yönetimi**: Try-catch bloklarıyla sağlam hata kontrolü ve kullanıcı dostu hata mesajları.
@@ -45,10 +45,10 @@ Projeleri yerel makinenizde çalıştırmak için aşağıdaki adımları izleyi
 
 3. **Projeleri Derleyin ve Çalıştırın**:
    - Bir IDE kullanıyorsanız, projeyi içe aktarın ve `main` metodunu çalıştırın.
-   - Terminal kullanıyorsanız, örneğin `cMatrix.java` için:
+   - Terminal kullanıyorsanız, örneğin `Yunus_Emre_Dogan_HW1.java` için:
      ```bash
-     javac cMatrix/cMatrix.java
-     java cMatrix.cMatrix
+     javac yunus_emre_dogan_hw1/Yunus_Emre_Dogan_HW1.java
+     java yunus_emre_dogan_hw1.Yunus_Emre_Dogan_HW1
      ```
 
 4. **Dosya İşleme için Hazırlık**:
@@ -57,10 +57,10 @@ Projeleri yerel makinenizde çalıştırmak için aşağıdaki adımları izleyi
 ## ▶️ Kullanım
 Her ödev, bağımsız bir Java programı olarak çalışır. Aşağıda ödevlerin kısa bir özeti ve nasıl çalıştırılacağı açıklanmıştır:
 
-1. **cMatrix.java**:
-   - 10x10 varsayılan matris veya kullanıcı tanımlı boyutlarda matris oluşturur.
+1. **Yunus_Emre_Dogan_HW1.java**:
+   - Varsayılan 10x10 matris veya kullanıcı tanımlı boyutlarda matris oluşturur.
    - Rastgele sayılar atar, asal sayıları işaretler ve matris çarpımı yapar.
-   - Çalıştırmak için: `java cMatrix.cMatrix`.
+   - Çalıştırmak için: `java yunus_emre_dogan_hw1.Yunus_Emre_Dogan_HW1`.
 
 2. **Yunus_Emre_Dogan_HW2.java**:
    - Elektronik bileşen envanterini yönetir (rezistör, transistör, kapasitör, indüktör).
@@ -68,7 +68,7 @@ Her ödev, bağımsız bir Java programı olarak çalışır. Aşağıda ödevle
    - Çalıştırmak için: `java com.mycompany.yunus_emre_dogan_hw2.Yunus_Emre_Dogan_HW2`.
 
 3. **Yunus_Emre_Dogan_HW3.java**:
-   - Bir metin dosyasından şekil verilerini okur, şekilleri bulur ve sonuçları ekrana ve dosyaya yazar.
+   - Metin dosyasından şekil verilerini okur, şekilleri bulur ve sonuçları ekrana ve dosyaya yazar.
    - Çalıştırmak için: Giriş dosyasını doğru dizine yerleştirin ve `java com.mycompany.yunus_emre_dogan_hw3.Yunus_Emre_Dogan_HW3` komutunu çalıştırın.
 
 4. **Yunus_Emre_Dogan_HW4.java**:
@@ -77,14 +77,14 @@ Her ödev, bağımsız bir Java programı olarak çalışır. Aşağıda ödevle
 
 ## 🔍 Nasıl Çalışır?
 Depodaki her ödev, belirli bir algoritmik veya veri yapısı problemini çözmek için tasarlanmıştır:
-- **cMatrix.java**: Matris işlemleri için döngüler ve koşullu ifadeler kullanır. Matris çarpımı O(n³) karmaşıklığına sahiptir ve asal sayı kontrolü için basit bir algoritma uygular.
+- **Yunus_Emre_Dogan_HW1.java**: Matris işlemleri için döngüler ve koşullu ifadeler kullanır. Matris çarpımı O(n³) karmaşıklığına sahiptir ve asal sayı kontrolü için basit bir algoritma uygular.
 - **Yunus_Emre_Dogan_HW2.java**: Nesne yönelimli programlama ile envanter yönetimi yapar. Sıralama işlemleri için karşılaştırma tabanlı algoritmalar kullanılır.
 - **Yunus_Emre_Dogan_HW3.java**: Dosya I/O ve string işleme teknikleri ile şekil tanıma problemini çözer.
 - **Yunus_Emre_Dogan_HW4.java**: Hash tablosu veri yapısını uygular, çarpışma yönetimi için basit bir yaklaşım kullanır.
 
 ## 🧱 Kod Yapısı
 - Her dosya, bağımsız bir Java sınıfı içerir.
-- Paket yapısı, ödevin adına veya konusuna göre düzenlenmiştir (örn. `cMatrix`, `com.mycompany.yunus_emre_dogan_hw2`).
+- Paket yapısı, ödevin adına göre düzenlenmiştir (örn. `yunus_emre_dogan_hw1`, `yunus_emre_dogan_hw2`).
 - Kodlar, okunabilirlik için yorumlarla desteklenmiştir.
 - Hata yönetimi, try-catch bloklarıyla sağlanmıştır.
 
@@ -92,7 +92,7 @@ Depodaki her ödev, belirli bir algoritmik veya veri yapısı problemini çözme
 - **Java Sürüm Hatası**: Doğru Java sürümünü kullandığınızdan emin olun (`java -version`).
 - **Dosya Bulunamadı**: `HW3Q2.txt` gibi giriş dosyalarının doğru dizinde olduğundan emin olun.
 - **Derleme Hataları**: Paket adlarının ve dosya yollarının doğru olduğundan emin olun.
-- **Performans Sorunları**: Büyük matrisler için `cMatrix.java` çalıştırırken bellek kullanımına dikkat edin.
+- **Performans Sorunları**: Büyük matrisler için `Yunus_Emre_Dogan_HW1.java` çalıştırırken bellek kullanımına dikkat edin.
 
 ## 📉 Sınırlamalar
 - Ödevler genellikle belirli bir problem için özelleşmiştir ve genelleştirilmiş çözümler sunmaz.
